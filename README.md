@@ -10,6 +10,7 @@ http://jroweboy.github.io/c/asm/2015/01/26/when-is-main-not-a-function.html
 $ gcc -Wall main.c -o main
 $ ./main "Hello World" > test.c
 $ gcc -Wall test.c && ./a.out
+test.c:1:12: warning: 'main' is usually a function [-Wmain]
 ```
 
 ### Example output
