@@ -11,6 +11,7 @@ $ gcc -Wall main.c -o main
 $ ./main "Hello World" > test.c
 $ gcc -Wall test.c && ./a.out
 test.c:1:12: warning: 'main' is usually a function [-Wmain]
+Hello World
 ```
 
 ### Example output
